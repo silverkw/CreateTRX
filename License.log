@@ -1,0 +1,57 @@
+    ======  ======
+    Time:6/20/2017 10:43:23 AM
+    Title: Initiate log
+    Message: 
+    Time:6/20/2017 10:43:23 AM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:6/20/2017 10:43:23 AM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:6/20/2017 10:43:23 AM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:6/20/2017 10:43:23 AM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:6/20/2017 10:43:23 AM
+    Title: LICENSER
+    Message: DS LEFT3
+    Time:6/20/2017 10:43:23 AM
+    Title: LICENSER
+    Message: DT MARK PASSED3.00:00:00
+    Time:6/20/2017 10:43:24 AM
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Time:6/20/2017 10:43:25 AM
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:6/20/2017 10:43:25 AM
+    Title: Requesting Validation
+    Message: ILMValidate True Trial
+    Time:6/20/2017 10:43:25 AM
+    Title: Requested registry access is not allowed.
+    Message:    at System.ThrowHelper.ThrowSecurityException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+   at Telerik.Licensing.Licenser.CheckRegistryTimeStamp()
+   at Telerik.Licensing.Licenser.TryCheckLicenseExists()
+    Time:6/20/2017 10:43:25 AM
+    Title: LICENSER
+    Message: READ REGS START
+    Time:6/20/2017 10:43:25 AM
+    Title: LIC EXP_KEY
+    Message: NULL
+    Time:6/20/2017 10:43:25 AM
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Warning: Orchestrator.LoadPackages() : Telerik.TestStudio.Manual.ManualPkg implements ITestStudioPkg but doesn't support VSTS SKU, so not added!
+    Uncategorized: Orchestrator.LoadPackages() : Telerik.TestStudio.Web.WebPkg implements ITestStudioPkg and was added as a package.
+    Uncategorized: Orchestrator.LoadPackages() : Telerik.TestStudio.Wpf.WpfPkg implements ITestStudioPkg and was added as a package.
+    TestStudio: Loader.LoadTranslatorGroups() : ------- Function Start -------
+    TestStudio: Loader.LoadTranslatorGroups() : ------- Function End -------
+    Recording: RecorderHostService constructor : Host endpoint: net.pipe://localhost/Instance/2112/DesignCanvas/3884
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
